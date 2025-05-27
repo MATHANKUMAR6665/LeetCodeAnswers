@@ -10,14 +10,18 @@ public class SearchIn2D {
                 {98,99,34,56},
                 {18,12}
         };
-        int tartget=34;
-        System.out.println(Arrays.toString(find(arr,tartget)));
+        int tartget=341;
+        System.out.println(Arrays.toString(search(arr,tartget)));
     }
-    static int []find(int[][]arr,int target){
-        for (int row = 0; row <=arr.length; row++) {
-            for (int coloum = 0; coloum <arr[row].length; coloum++) {
-                if (arr[row][coloum]==target){
-                    return new int[]{row,coloum};
+    static int[] search(int[][]arr,int target){
+        if (arr.length==0){
+            return new int[]{-1,-1};
+
+        }
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[row].length; col++) {
+                if (arr[row][col]==target){
+                    return new int[]{row,col};
                 }
             }
         }
