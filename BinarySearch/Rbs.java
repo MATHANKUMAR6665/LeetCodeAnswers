@@ -2,8 +2,9 @@ package BinarySearch;
 
 public class Rbs {
     public static void main(String[]args){
-        int[] arr={4,5,6,7,8,0,1,2};
-        System.out.println(pivotsearch(arr));
+        int[] arr={1,3};
+        int target=0;
+        System.out.println(search(arr,target));
     }
     static int search(int[]arr,int target) {
         int picvot=pivotsearch(arr);
@@ -30,7 +31,7 @@ public class Rbs {
     static int pivotsearch(int[]arr){
         int start=0;
         int end=arr.length-1;
-        while ((start<end)){
+        while ((start<=end)){
             int mid=start+(end-start)/2;
             if (arr[mid]>=arr[mid+1]){
                 return mid;
