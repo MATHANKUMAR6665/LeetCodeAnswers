@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.LinearSearch;
 
 public class LeetCode1672 {
     public static void main(String[] args) {

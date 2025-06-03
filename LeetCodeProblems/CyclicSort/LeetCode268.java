@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.CyclicSort;
 //today
 public class LeetCode268 {
     public static void main(String[]args){

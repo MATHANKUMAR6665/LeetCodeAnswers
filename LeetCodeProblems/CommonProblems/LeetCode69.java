@@ -1,6 +1,4 @@
-package LeetCodeProblems;
-
-import com.sun.source.tree.BreakTree;
+package LeetCodeProblems.CommonProblems;
 
 public class LeetCode69 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.BinarySearch;
 
 public class GeeksFOrGeeks {
     public static void main(String[]args){

@@ -1,7 +1,6 @@
-package LeetCodeProblems;
+package LeetCodeProblems.CyclicSort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 //today
 

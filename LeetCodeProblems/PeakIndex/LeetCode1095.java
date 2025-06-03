@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.PeakIndex;
 
 public class LeetCode1095 {
     public static void main(String[]args){
